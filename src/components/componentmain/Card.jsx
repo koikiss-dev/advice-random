@@ -9,7 +9,7 @@ const MainCard = styled.article`
   color: var(--Light-Cyan);
   margin: 20rem 2rem;
   @media (min-width: 1000px) {
-    margin: 27rem 0;
+    margin: 15rem 20rem;
   }
   padding: 3rem 2rem 0;
   position: relative;

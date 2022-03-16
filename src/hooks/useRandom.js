@@ -4,9 +4,7 @@ const useRandom = () => {
   const [data, useData] = useState([]);
   const RandomAdvice = async () => {
     const { data } = await axios.get("https://api.adviceslip.com/advice");
-    const result = await data.slip;
-    console.log(result);
-    useData(result);
+    useData(data.slip);
   };
   useEffect(() => {
     RandomAdvice();
